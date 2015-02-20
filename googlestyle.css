@@ -1,0 +1,172 @@
+* {
+	padding: 0;
+	margin: 0px;
+	text-decoration: none;
+}
+
+body{
+	position: relative;
+	margin: 0;
+	padding-bottom: 200px;
+	width: 100%;
+	min-height: 100%;
+	background: white;
+	font-family: Helvetica, sans-serif;
+}
+
+
+
+
+/* nav styles */
+
+nav {
+	padding: 15px 25px 175px 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: right;
+}
+
+a {
+	display: block;
+	width: 50px;
+	text-decoration: none;
+	font-size: .8em;
+	margin-top: 9px;
+}
+
+button {
+	display: block;
+	height: 30px;
+	width: 70px;
+	background: #58f;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 2px;
+	color: white;
+	border: none;
+	margin-left: 2px;
+	font-size: .8em;
+}
+
+
+
+/* link pseudo styles */
+
+a:link {
+	color: #000;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #000;
+}
+
+
+
+/* search field styles */
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 270px;
+}
+
+form {
+	margin: 0 auto;
+	position: relative;
+	width: 600px;
+	font-size: .6em	;
+	padding: 30px 0px 20px 0px;
+}
+
+input#field {
+	width: 600px;
+	height: 25px;
+	display: block;
+	border-style: solid;
+	border: none;
+	border-width: 1px;
+	border: 1px solid #d3d3d3;
+	padding: 2px;
+}
+
+input#button {
+	width: 110px;
+	height: 30px;
+	display: inline-block;
+	border-style: solid;
+	border: none;
+	border-width: 1px;
+	border: 1px solid #d3d3d3;
+	font-weight: bold;
+}
+
+.centerbuttons {
+	text-align: center;
+}
+
+
+
+
+/* footer clear styles */
+
+.content:before,
+.content:after {
+	content: "";
+	display: table;
+}
+
+.content:after {
+	clear: both;
+}
+
+.content {
+	clear: both;
+	*zoom: 1;
+}
+
+
+
+
+/* footer styles */
+
+footer {
+	position: fixed;
+	width: 97%;
+	height: 20px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #f1f1f1;
+	margin: 0 auto;
+	border-top: 1px #bdbdbd;
+	font-size: .8em;
+	color: #696969;
+	padding: 18px 50px 10px 30px;
+}
+
+.leftfoot {
+	float: left;
+	width: 80px;
+}
+
+.rightfoot {
+	float: right;
+	width: 60px;
+}
